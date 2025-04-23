@@ -6,7 +6,7 @@
   <img src="./thumbnail/profile.jpg" alt="Profile" width="150" style="border-radius: 50%;">
 </div>
 
-Enlace a mi comunidad de Discord:
+Enlace al Discord de CLAI:
 https://discord.gg/d49rGXxn
 
 Este repositorio contiene ejemplos prácticos y mínimos para entender cómo funciona el **Model Context Protocol (MCP)**, un estándar abierto para conectar modelos de lenguaje (LLMs) con datos y herramientas externas de forma modular y escalable.
