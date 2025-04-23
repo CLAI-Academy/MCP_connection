@@ -41,8 +41,6 @@ Cada servidor MCP puede ofrecer:
 
 ## 🚀 Cómo probarlo
 
-## 🚀 Cómo probarlo
-
 ### Paso 1: Configurar el Proyecto del Cliente
 ```bash
 uv init mcp-client
@@ -69,8 +67,10 @@ Envío de mensajes a Claude
 
 Llamadas a herramientas dinámicas según la respuesta del modelo
 
-### Paso 4: Ejecuta el Cliente
+### Paso 4: Ejecuta el Cliente 
+
+(asegurate de estar en la carpeta mcp_client_stdio)
 ```bash
-uv run cliente_anthropic.py /ruta/al/servidor/weather.py
+uv run cliente_anthropic.py ../mcp_server_stdio/weather.py
 ```
 ---
