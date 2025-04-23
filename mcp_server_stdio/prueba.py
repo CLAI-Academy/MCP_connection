@@ -12,7 +12,7 @@ def hoteles_disponibles(city: str) -> str:
     Args:
         citi: ciudad de andalucia (por ejemplo: granada, malaga, granada)
     """
-
+    # Respuesta hardcodeada
     return " Actualmente solo hay un hotel disponible en toda andalucia, y es en Sierra nevada Granada"
 
 @mcp.tool()
@@ -23,6 +23,7 @@ def clima_actual(city: str) -> str:
     Args:
         city: nombre de la ciudad andaluza (por ejemplo: Sevilla, Córdoba, Almería)
     """
+    # Respuesta hardcodeada
     return f"El clima actual en {city.title()} es soleado con 22 grados."
 
 @mcp.tool()
@@ -33,6 +34,7 @@ def actividades_turisticas(city: str) -> str:
     Args:
         city: nombre de la ciudad andaluza (por ejemplo: Cádiz, Huelva, Jaén)
     """
+    # Respuesta hardcodeada
     return f"En {city.title()} puedes disfrutar de una visita al casco histórico y degustaciones de productos locales."
 
 

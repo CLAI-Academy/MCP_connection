@@ -79,7 +79,7 @@ class MCPClient:
                 result = await self.session.call_tool(tool_name, tool_args)
                 final_text.append(f"[Llamando a la herramienta {tool_name} con los argumentos {tool_args}]")
 
-                # Según la documentación, debemos agregar el mensaje de la función original al array de mensajes
+         
                 messages.append(item)  # Agregar directamente el objeto de función
 
                 # Extrae directamente el texto del resultado
